@@ -167,10 +167,8 @@ void setup()
 
 void loop()
 {
-
-  light.outsideIn(50);
-  light.outsideInOff(50);
-  light.insideOut(50);
-  light.insideOutOff(50);
-  light.ripplesIn(1000);
+  int flash = 10;
+  light.insideOut(flash);
+  light.insideOutOff(flash);
+  light.ripplesIn(flash);
 }
